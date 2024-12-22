@@ -19,6 +19,7 @@ import java.time.LocalDate;
 
 @Slf4j
 @SpringBootTest
+// @Order 어노테이션 사용위한 선언
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class MemberRepositoryTest {
 
